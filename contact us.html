@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact BFF Travel</title>
+    <meta
+      name="description"
+      content="Ready for a trip that might go off the rails in the best way? Contact BFF Travel and let Ben & Daniel design your next adventure."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-inner">
+        <a href="/" class="logo-group">
+          <img src="/logo-bff.png" alt="BFF Travel logo" />
+          <span class="brand-text">
+            <span class="brand-title">BFF TRAVEL</span>
+            <span class="brand-tagline">Ben’s Fucking Fault</span>
+          </span>
+        </a>
+        <nav class="nav-links">
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
+          <a href="/gallery.html">Gallery</a>
+          <a href="/contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-label">Contact</div>
+        <h1 class="section-title">Book your unforgettable trip</h1>
+        <p>
+          Tell us who you are travelling with, where you would like to go, roughly when, and your
+          budget. We will come back with a custom, probably slightly unhinged itinerary.
+        </p>
+      </section>
+
+      <section class="contact-grid">
+        <article class="contact-card">
+          <h2 class="card-title">Slide into our inbox</h2>
+          <div class="contact-details">
+            <p><strong>BFF Travel</strong></p>
+            <p>
+              Email:
+              <a href="mailto:bffbookings@bfftravel.se">bffbookings@bfftravel.se</a>
+            </p>
+            <p>Phone / WhatsApp: <a href="tel:+46734565883">+46 73 456 58 83</a></p>
+          </div>
+          <p class="contact-note">
+            Drop a message with your dream chaos level: chill, adventurous or “we might need a
+            lawyer”. We will take it from there.
+          </p>
+        </article>
+
+        <article class="contact-card">
+          <h2 class="card-title">Quick request form</h2>
+          <form
+            action="#"
+            method="post"
+            style="display: grid; gap: 0.75rem; font-size: 0.9rem;"
+          >
+            <label>
+              Name
+              <input
+                type="text"
+                name="name"
+                style="
+                  width: 100%;
+                  padding: 0.5rem 0.6rem;
+                  border-radius: 0.5rem;
+                  border: 1px solid var(--border);
+                  background: #fff;
+                "
+              />
+            </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                style="
+                  width: 100%;
+                  padding: 0.5rem 0.6rem;
+                  border-radius: 0.5rem;
+                  border: 1px solid var(--border);
+                  background: #fff;
+                "
+              />
+            </label>
+            <label>
+              Where do you want to go?
+              <input
+                type="text"
+                name="destination"
+                placeholder="Country / region / ‘surprise me’"
+                style="
+                  width: 100%;
+                  padding: 0.5rem 0.6rem;
+                  border-radius: 0.5rem;
+                  border: 1px solid var(--border);
+                  background: #fff;
+                "
+              />
+            </label>
+            <label>
+              Rough budget (per person)
+              <input
+                type="text"
+                name="budget"
+                style="
+                  width: 100%;
+                  padding: 0.5rem 0.6rem;
+                  border-radius: 0.5rem;
+                  border: 1px solid var(--border);
+                  background: #fff;
+                "
+              />
+            </label>
+            <label>
+              Trip vibes
+              <textarea
+                name="vibes"
+                rows="4"
+                placeholder="Tell us what kind of chaos you’re into…"
+                style="
+                  width: 100%;
+                  padding: 0.5rem 0.6rem;
+                  border-radius: 0.5rem;
+                  border: 1px solid var(--border);
+                  background: #fff;
+                  resize: vertical;
+                "
+              ></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send request</button>
+            <p class="contact-note">
+              Form not wired up yet? No stress — just email
+              <a href="mailto:bffbookings@bfftravel.se">bffbookings@bfftravel.se</a>.
+            </p>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© BFF Travel – Ben’s Fucking Fault</span>
+        <span>If it goes wrong, blame Ben. If it is incredible, blame him too.</span>
+      </div>
+    </footer>
+  </body>
+</html>
